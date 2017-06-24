@@ -38,9 +38,9 @@ package
 
 	public class main extends Sprite 
 	{
-		private var webServerAddress:String = "192.168.0.17";
-		private var streamServerAddress:String = "192.168.0.10";
-		private var commentServerAddress:String = "192.168.0.10";
+		private var webServerAddress:String = "192.168.33.11";
+		private var streamServerAddress:String = "192.168.33.11";
+		private var commentServerAddress:String = "192.168.33.11";
 		private var nc:NetConnection;
 		private var ns:NetStream;
 		
